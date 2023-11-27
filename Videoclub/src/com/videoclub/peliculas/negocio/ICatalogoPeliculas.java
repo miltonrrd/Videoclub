@@ -1,0 +1,8 @@
+package com.videoclub.peliculas.negocio;
+
+public interface ICatalogoPeliculas {
+    public void agregarPelicula(String nombrePelicula, String nombreArchivo);
+    public void listarPeliculas(String nombreArchivo);
+    public void buscarPelicula(String nombreArchivo, String buscar);
+    public void iniciarArchivo(String nombreArchivo);
+}
